@@ -1,37 +1,3 @@
-body {
-    background-color: #663b03;
-}
-span {
-    text-transform: uppercase;
-}
-/* Earth Picture */
-.earthhomepagepicture {
-    background-image: url("../static/EarthHomePage.png");
-    background-repeat: no-repeat;
-    height: 500px;
-    background-position: top center;
-    object-fit: contain;
-}
-/* Navigation Bar */
-nav {
-    border-top: dotted #b47009;
-    border-bottom: dotted #b47009;
-    margin: 0rem 22rem 0rem 22rem;
-}
-nav ul {
-    display: flex;
-    justify-content:space-around;
-    padding-left: 0px;
-}
-nav li {
-    list-style: none;
-    padding: 0px 1rem 0px 1rem;
-}
-nav a {
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: yellow;
-}
 /* Shopping Options Description */
 .shoppingoptions p {
     color: white;
