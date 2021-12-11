@@ -17,6 +17,7 @@ nav {
     border-top: dotted #b47009;
     border-bottom: dotted #b47009;
     margin: 0rem 22rem 0rem 22rem;
+    /* border: solid black; */
 }
 nav ul {
     display: flex;
