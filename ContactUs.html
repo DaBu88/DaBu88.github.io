@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANFHomepage</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <div class="wrapper">
@@ -22,7 +22,7 @@
     </nav>
     <main>
         <h2>Contact Us</h2>
-        <form action="">
+        <form action="form_submission_status.html" method="get">
             <input type="text" name="fname" id="fname" placeholder="First Name">
             <input type="text" name="lname" id="lname" placeholder="Last Name">
             <input type="text" name="address1" id="address1" placeholder="Address Street 1">
@@ -30,6 +30,7 @@
             <input type="text" name="city" id="city" placeholder="City">
             <input type="number" name="" id="" placeholder="Zip Code">
             <label for=""><select>
+                <option value="State">Choose State</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -86,6 +87,7 @@
             <input type="tel" name="eveningphone" id="eveningphone" placeholder="Evening Phone">
             <input type="email" name="email" id="email" placeholder="Email Address">
             <textarea id="comments" name="comments" rows="4" cols="38" style="width: 100%;" labelid="comments">Enter comments here!</textarea>
+            <input type="submit" value="Send Message">
         </form>
     </main>
     <footer>
@@ -112,7 +114,8 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin: 0 22rem 0 22rem;
+        /* margin: 0 22rem 0 22rem; */
+        margin: auto;
     }
     h2 {
         color: yellow;
