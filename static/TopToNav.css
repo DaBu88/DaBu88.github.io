@@ -1,8 +1,17 @@
+:root {
+    --line-height-adjust: clamp(2rem, 5vh, 3rem);
+    --font-size-adjust: clamp(1rem, 5vw, 1.5rem)
+}
 body {
     background-color: #663b03;
+    margin: 5px;
 }
 span {
     text-transform: uppercase;
+}
+.wrapper {
+    width: 50rem;
+    margin: auto;
 }
 /* Earth Picture */
 .earthhomepagepicture {
@@ -11,18 +20,20 @@ span {
     height: 500px;
     background-position: top center;
     object-fit: contain;
+    width: 50rem;
+    margin: auto;
 }
 /* Navigation Bar */
 nav {
     border-top: dotted #b47009;
     border-bottom: dotted #b47009;
-    margin: 0rem 22rem 0rem 22rem;
     /* border: solid black; */
+    width: 100%;
 }
 nav ul {
     display: flex;
-    justify-content:space-around;
-    padding-left: 0px;
+    justify-content: space-around;
+    padding: 0px;
 }
 nav li {
     list-style: none;
@@ -32,4 +43,74 @@ nav a {
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: yellow;
+}
+
+main {
+    width: 100%;
+}
+/* Shopping Options Description */
+.shoppingoptions p {
+    color: white;
+    text-align: center;
+    font-size: var(--font-size-adjust);
+    padding: 1rem 2rem 0rem 4rem;
+    line-height: var(--line-height-adjust);
+}
+.whitebox {
+    background-color: white;
+    border-radius: 5px;
+    border-color: yellow;
+    border-style: solid;
+    margin-bottom: 1rem;
+}
+/* Google form link */
+.formlink {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+ button {
+    background-color: yellow;
+    border-radius: 1rem;
+    border: dotted;
+    text-transform: uppercase;
+    font-style: oblique;
+ }
+.covidstatement {
+color:white;
+font-size: 1.5rem;
+}
+.storedescription {
+font-family: Georgia;
+font-size: .9rem;
+color: white;
+}
+
+.wineimage-image {
+width: 20rem;
+float: right;
+}
+footer {
+text-align: center;
+font-family: serif;
+}
+.contact_and_hours {
+    text-align: center;
+}
+.hours {
+color: yellow;
+}
+.hours h3 {
+text-transform: uppercase;
+}
+.locationcontact {
+color: white;
+}
+.copyright {
+font-size: .4rem;
+font-family: Arial, Helvetica, sans-serif;
+text-align: start;
+color: grey;
+border-top: solid;
+padding: 1px 0px 5px 4rem;
 }

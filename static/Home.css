@@ -1,102 +1,104 @@
 body {
-    background-color: #663b03;
+  background-color: #663b03;
 }
 span {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 /* Earth Picture */
 .earthhomepagepicture {
-    background-image: url("../static/EarthHomePage.png");
-    background-repeat: no-repeat;
-    height: 500px;
-    background-position: top center;
-    object-fit: contain;
+  background-image: url("../static/EarthHomePage.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: top center;
+  object-fit: contain;
 }
 /* Navigation Bar */
 nav {
-    border-top: dotted #b47009;
-    border-bottom: dotted #b47009;
-    margin: 0rem 22rem 0rem 22rem;
+  border-top: dotted #b47009;
+  border-bottom: dotted #b47009;
+  /* margin: 0rem 22rem 0rem 22rem; */
+  padding: 0 22rem;
 }
 nav ul {
-    display: flex;
-    justify-content:space-around;
-    padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
 }
 nav li {
-    list-style: none;
-    padding: 0px 1rem 0px 1rem;
+  list-style: none;
+  padding: 0px 1rem 0px 1rem;
 }
 nav a {
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: yellow;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: yellow;
 }
 /* Shopping Options Description */
 .shoppingoptions p {
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 1rem 26rem 0rem 26rem;
-    line-height: 3rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  /* margin: 1rem 26rem 0rem 26rem; */
+  line-height: 3rem;
 }
 .whitebox {
-    background-color: white;
-    margin: 0rem 22rem 0rem 22rem;
-    border-radius: 5px;
-    border-color: yellow;
-    border-style: solid;
-    margin-bottom: 1rem;
+  background-color: white;
+  /* margin: 0rem 22rem 0rem 22rem; */
+  border-radius: 5px;
+  border-color: yellow;
+  border-style: solid;
+  margin-bottom: 1rem;
 }
 /* Google form link */
 .formlink {
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
-    margin: 0rem 22rem 0rem 22rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  /* margin: 0rem 22rem 0rem 22rem; */
 }
- button {
-     background-color: yellow;
-     border-radius: 1rem;
-     border: dotted;
-     text-transform: uppercase;
-     font-style: oblique;
-     width: 50rem;
- }
+button {
+  background-color: yellow;
+  border-radius: 1rem;
+  border: dotted;
+  text-transform: uppercase;
+  font-style: oblique;
+  width: 50rem;
+}
 .covidstatement {
-color:white;
-margin: 0rem 22rem 0rem 22rem;
-font-size: 1.5rem;
+  color: white;
+  /* margin: 0rem 22rem 0rem 22rem; */
+  font-size: 1.5rem;
 }
 .storedescription {
-font-family: Georgia;
-font-size: .9rem;
-color: white;
-margin: 0rem 22rem 0rem 22rem;
+  font-family: Georgia;
+  font-size: 0.9rem;
+  color: white;
+  /* margin: 0rem 22rem 0rem 22rem; */
 }
 
 .wineimage-image {
-width: 20rem;
-float: right;
+  width: 20rem;
+  float: right;
 }
 footer {
-text-align: center;
-font-family: serif;
+  text-align: center;
+  font-family: serif;
 }
 .hours {
-color: yellow;
+  color: yellow;
 }
 .hours h3 {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 .locationcontact {
-color: white;
+  color: white;
 }
 .copyright {
-font-size: .4rem;
-font-family: Arial, Helvetica, sans-serif;
-text-align: start;
-color: grey;
-border-top: solid;
-padding: 1px 0px 5px 4rem;
+  font-size: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: start;
+  color: grey;
+  border-top: solid;
+  padding: 1px 0px 5px 4rem;
 }

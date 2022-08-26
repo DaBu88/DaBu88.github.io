@@ -1,0 +1,27 @@
+
+@media (max-width: 810px) {
+    .wrapper {
+        width: 100%;
+    }
+    .earthhomepagepicture {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .earthhomepagepicture {
+       width: 100%;
+       height: auto;
+       background-position:unset;
+       object-fit: unset;
+       background-repeat: unset;
+       margin: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li {
+        padding: 0;
+    }
+}
