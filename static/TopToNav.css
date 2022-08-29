@@ -20,7 +20,7 @@ span {
     height: 500px;
     background-position: top center;
     object-fit: contain;
-    width: 50rem;
+    /* width: 50rem; */
     margin: auto;
 }
 /* Navigation Bar */
@@ -48,14 +48,6 @@ nav a {
 main {
     width: 100%;
 }
-/* Shopping Options Description */
-.shoppingoptions p {
-    color: white;
-    text-align: center;
-    font-size: var(--font-size-adjust);
-    padding: 1rem 2rem 0rem 4rem;
-    line-height: var(--line-height-adjust);
-}
 .whitebox {
     background-color: white;
     border-radius: 5px;
@@ -69,26 +61,12 @@ main {
     font-size: 1.5rem;
     color: white;
 }
- button {
-    background-color: yellow;
-    border-radius: 1rem;
-    border: dotted;
-    text-transform: uppercase;
-    font-style: oblique;
- }
-.covidstatement {
-color:white;
-font-size: 1.5rem;
-}
-.storedescription {
-font-family: Georgia;
-font-size: .9rem;
-color: white;
-}
-
-.wineimage-image {
-width: 20rem;
-float: right;
+button {
+background-color: yellow;
+border-radius: 1rem;
+border: dotted;
+text-transform: uppercase;
+font-style: oblique;
 }
 footer {
 text-align: center;

@@ -11,17 +11,23 @@
 @media (max-width: 360px) {
     .earthhomepagepicture {
        width: 100%;
-       height: auto;
-       background-position:unset;
-       object-fit: unset;
-       background-repeat: unset;
-       margin: 0;
+       height: 300px;
+       /* margin: 0; */
     }
     nav ul {
         flex-direction: column;
         align-items: center;
+        /* background-color: yellow; */
     }
     nav li {
         padding: 0;
+        margin: 10px 0;
+    }
+    nav a {
+        background-color: yellow;
+        color: #b47009;
+        border-radius: 10px;
+        border: solid #b47009;
+        padding: 5px 0px;
     }
 }
