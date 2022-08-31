@@ -8,7 +8,6 @@
 }
 .whitebox {
   background-color: white;
-  /* margin: 0rem 22rem 0rem 22rem; */
   border-radius: 5px;
   border-color: yellow;
   border-style: solid;
@@ -19,7 +18,6 @@
   text-align: center;
   font-size: 1.5rem;
   color: white;
-  /* margin: 0rem 22rem 0rem 22rem; */
 }
 .storedescription {
   font-family: Georgia;
@@ -29,6 +27,11 @@
 .wineimage-image {
   width: 20rem;
   float: right;
+}
+
+.covidstatement {
+  font-size: large;
+  color: white;
 }
 
 
