@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="static/TopToNav.css">
+    <link rel="stylesheet" href="static/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,6 @@
         </ul>
     </nav>
     <main>
-        <h2>Contact Us</h2>
         <form action="form_submission_status.html" method="get">
             <input type="text" name="fname" id="fname" placeholder="First Name">
             <input type="text" name="lname" id="lname" placeholder="Last Name">
@@ -86,7 +85,7 @@
             <input type="tel" name="dayphone" id="dayphone" placeholder="Daytime Phone">
             <input type="tel" name="eveningphone" id="eveningphone" placeholder="Evening Phone">
             <input type="email" name="email" id="email" placeholder="Email Address">
-            <textarea id="comments" name="comments" rows="4" cols="38" style="width: 100%;" labelid="comments">Enter comments here!</textarea>
+            <textarea id="comments" name="comments" rows="4" cols="38" labelid="comments">Enter comments here!</textarea>
             <input type="submit" value="Send Message">
         </form>
     </main>
@@ -102,59 +101,3 @@
         </div>
     </footer>
 </html>
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    main {
-        /* border: solid black 3px; */
-        width: 52rem;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        /* margin: 0 22rem 0 22rem; */
-        margin: auto;
-    }
-    h2 {
-        color: yellow;
-        margin: 1rem 0px 1rem 0px;
-        /* border: solid black; */
-    }
-    .written-content {
-        width: 52rem;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        row-gap: 10px;
-    }
-footer {
-text-align: center;
-font-family: serif;
-}
-.locationcontact {
-color: white;
-margin: 10px 0px 10px 0px;
-}
-.copyright {
-font-size: .4rem;
-font-family: Arial, Helvetica, sans-serif;
-text-align: start;
-color: grey;
-border-top: solid;
-padding: 1px 0px 5px 4rem;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-input {
-    width: 300px;
-    height: 30px;
-}
-#comments {
-    height: 10rem;
-}
-</style>

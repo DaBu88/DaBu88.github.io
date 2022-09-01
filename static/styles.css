@@ -1,0 +1,198 @@
+:root {
+    --line-height-adjust: clamp(2rem, 5vh, 3rem);
+    --font-size-adjust: clamp(1rem, 5vw, 1.5rem)
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #663b03;
+    margin: 5px;
+}
+span {
+    text-transform: uppercase;
+}
+.wrapper {
+    width: 50rem;
+    margin: auto;
+}
+/* Earth Picture */
+.earthhomepagepicture {
+    background-image: url("../static/EarthHomePage.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: top center;
+    object-fit: contain;
+    /* width: 50rem; */
+    margin: auto;
+}
+/* Navigation Bar */
+nav {
+    border-top: dotted #b47009;
+    border-bottom: dotted #b47009;
+    /* border: solid black; */
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+nav li {
+    list-style: none;
+    padding: 0px 1rem;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellow;
+}
+
+main {
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+}
+button {
+background-color: yellow;
+border-radius: 1rem;
+border: dotted;
+text-transform: uppercase;
+font-style: oblique;
+}
+footer {
+text-align: center;
+font-family: serif;
+}
+.contact_and_hours {
+    text-align: center;
+}
+.hours {
+color: yellow;
+}
+.hours h3 {
+text-transform: uppercase;
+}
+.locationcontact {
+color: white;
+}
+.copyright {
+font-size: .4rem;
+font-family: Arial, Helvetica, sans-serif;
+text-align: start;
+color: grey;
+border-top: solid;
+padding: 1px 0px 5px 4rem;
+}
+
+/* home page css */
+.shoppingoptions p {
+    color: white;
+    text-align: center;
+    font-size: var(--font-size-adjust);
+    padding: 1rem 2rem 0rem 4rem;
+    line-height: var(--line-height-adjust);
+  }
+  .whitebox {
+    background-color: white;
+    border-radius: 5px;
+    border-color: yellow;
+    border-style: solid;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  /* Google form link */
+  .formlink {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .storedescription {
+    font-family: Georgia;
+    font-size: 0.9rem;
+    color: white;
+  }
+  .wineimage-image {
+    width: 20rem;
+    float: right;
+  }
+  
+  .covidstatement {
+    font-size: large;
+    color: white;
+  }
+
+/* about us page styles */
+    .written-content {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        height: auto;
+    }
+    .written-content > * {
+        width: 100%;
+    }
+
+/* items page styles */
+.product-category-list-container {
+    display: flex;
+    column-gap: 1rem;
+}
+.column-1 {
+    width: 50%;
+}
+.column-2 {
+    width: 50%;
+}
+
+/* contact us page */
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+input {
+    width: 300px;
+    height: 30px;
+}
+#comments {
+    height: 10rem;
+    width: 300px;
+}
+
+/* media queries */
+
+@media (max-width: 810px) {
+    .wrapper {
+        width: 100%;
+    }
+    .earthhomepagepicture {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .earthhomepagepicture {
+       width: 100%;
+       height: 300px;
+       /* margin: 0; */
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        /* background-color: yellow; */
+    }
+    nav li {
+        padding: 0;
+        margin: 10px 0;
+    }
+    nav a {
+        background-color: yellow;
+        color: #b47009;
+        border-radius: 10px;
+        border: solid #b47009;
+        padding: 5px 0px;
+    }
+}
