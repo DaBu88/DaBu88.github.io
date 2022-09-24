@@ -1,34 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="static/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-</head>
-<body>
-    <div class="wrapper">
-    <div class="earthhomepagepicture">
-    </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="AboutUs.html">About Us</a></li>
-            <li><a href="Items.html">Items</a></li>
-            <li><a href="History.html">History</a></li>
-            <li><a href="ContactUs.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    <main>
-        <form action="form_submission_status.html" method="get">
-            <input type="text" name="fname" id="fname" placeholder="First Name">
-            <input type="text" name="lname" id="lname" placeholder="Last Name">
-            <input type="text" name="address1" id="address1" placeholder="Address Street 1">
-            <input type="text" name="address2" id="address2" placeholder="Address Street 2">
-            <input type="text" name="city" id="city" placeholder="City">
-            <input type="number" name="" id="" placeholder="Zip Code">
-            <label for=""><select>
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+
+export default function Contact() {
+  return (
+    <>
+      <Head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+      </Head>
+      <body>
+        <div class="wrapper" />
+        <div class="earthhomepagepicture"></div>
+        <Nav />
+        <main>
+          <form action="form_submission_status.html" method="get">
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Last Name"
+            />
+            <input
+              type="text"
+              name="address1"
+              id="address1"
+              placeholder="Address Street 1"
+            />
+            <input
+              type="text"
+              name="address2"
+              id="address2"
+              placeholder="Address Street 2"
+            />
+            <input type="text" name="city" id="city" placeholder="City" />
+            <input type="number" name="" id="" placeholder="Zip Code" />
+            <label for="">
+              <select>
                 <option value="State">Choose State</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
@@ -81,23 +100,40 @@
                 <option value="WV">West Virginia</option>
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
-            </select>	</label>
-            <input type="tel" name="dayphone" id="dayphone" placeholder="Daytime Phone">
-            <input type="tel" name="eveningphone" id="eveningphone" placeholder="Evening Phone">
-            <input type="email" name="email" id="email" placeholder="Email Address">
-            <textarea id="comments" name="comments" rows="4" cols="38" labelid="comments">Enter comments here!</textarea>
-            <input type="submit" value="Send Message">
-        </form>
-    </main>
-    <footer>
-        <div class="locationcontact">
-            <p>Axis Natural Foods <br>
-                120 Center Street <br>
-                Auburn, ME 04210 <br>
-                207-782-3348</p>
-        </div>
-        <div class="copyright">
-            <h1>Content copyright 2021. Axis Natural Food, Ltd. All rights reserved.</h1>
-        </div>
-    </footer>
-</html>
+              </select>{" "}
+            </label>
+            <input
+              type="tel"
+              name="dayphone"
+              id="dayphone"
+              placeholder="Daytime Phone"
+            />
+            <input
+              type="tel"
+              name="eveningphone"
+              id="eveningphone"
+              placeholder="Evening Phone"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <textarea
+              id="comments"
+              name="comments"
+              rows="4"
+              cols="38"
+              labelid="comments"
+            >
+              Enter comments here!
+            </textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </main>
+        <Footer />
+      </body>
+    </>
+  );
+}
