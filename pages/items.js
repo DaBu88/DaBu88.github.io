@@ -15,97 +15,98 @@ export default function Items() {
         <title>Items</title>
       </Head>
       <body>
-        <div class="wrapper" />
-        <div class="earthhomepagepicture"></div>
-        <Nav />
-        <main>
-          <div class="formlink">
-            <Link href="/no-more-curbside">
-              <button type="button">
-                <h2>Click here to place an order</h2>
-              </button>
-            </Link>
-          </div>
-          <p class="before-list">
-            We try to offer as many choices of natural products as we can to our
-            customers. We stock a large selection within many popular categories
-            and we are happy to special order products that we don’t stock.
-            Additionally, we feature many monthly and on-going sales on a wide
-            variety of products. Here are some of the many categories of
-            products we offer:
-          </p>
-          <div class="product-category-list-container">
-            <div class="column-1">
-              Natural Foods and Groceries
-              <br />
-              <br />
-              Special Diet Foods and Gluten-Free Products
-              <br />
-              <br />
-              Vitamins and Supplements
-              <br />
-              <br />
-              Wine and Beer
-              <br />
-              <br />
-              Coffee and Tea
-              <br />
-              <br />
-              Eco-friendly household goods
-              <br />
-              <br />
-              Organic or Natural Health and Body Care Products
-              <br />
-              <br />
-              Camping Foods
-              <br />
-              <br />
-              Kitchen products
-              <br />
-              <br />
-              Canning supplies, including jar lids and picking spices
+        <div class="wrapper">
+          <div class="earthhomepagepicture"></div>
+          <Nav />
+          <main>
+            <div class="formlink">
+              <Link href="/no-more-curbside">
+                <button type="button">
+                  <h2>Click here to place an order</h2>
+                </button>
+              </Link>
             </div>
-            <div class="column-2">
-              Organic and Local Produce
-              <br />
-              <br />
-              Macrobiotic Foods
-              <br />
-              <br />
-              <br />
-              Herbal Products
-              <br />
-              <br />
-              Home Brewing Supplies
-              <br />
-              <br />
-              Prepared foods
-              <br />
-              <br />
-              Cheese Making Supplies
-              <br />
-              <br />
-              Books addressing health, nutrition, cooking and more
-              <br />
-              <br />
-              <br />
-              Natural pet foods and supplies
-              <br />
-              <br />
-              Cards and gifts
-              <br />
-              <br />
-              Gardening products, including compost buckets, and earth-safe
-              anti-bug products
+            <p class="before-list">
+              We try to offer as many choices of natural products as we can to
+              our customers. We stock a large selection within many popular
+              categories and we are happy to special order products that we
+              don’t stock. Additionally, we feature many monthly and on-going
+              sales on a wide variety of products. Here are some of the many
+              categories of products we offer:
+            </p>
+            <div class="product-category-list-container">
+              <div class="column-1">
+                Natural Foods and Groceries
+                <br />
+                <br />
+                Special Diet Foods and Gluten-Free Products
+                <br />
+                <br />
+                Vitamins and Supplements
+                <br />
+                <br />
+                Wine and Beer
+                <br />
+                <br />
+                Coffee and Tea
+                <br />
+                <br />
+                Eco-friendly household goods
+                <br />
+                <br />
+                Organic or Natural Health and Body Care Products
+                <br />
+                <br />
+                Camping Foods
+                <br />
+                <br />
+                Kitchen products
+                <br />
+                <br />
+                Canning supplies, including jar lids and picking spices
+              </div>
+              <div class="column-2">
+                Organic and Local Produce
+                <br />
+                <br />
+                Macrobiotic Foods
+                <br />
+                <br />
+                <br />
+                Herbal Products
+                <br />
+                <br />
+                Home Brewing Supplies
+                <br />
+                <br />
+                Prepared foods
+                <br />
+                <br />
+                Cheese Making Supplies
+                <br />
+                <br />
+                Books addressing health, nutrition, cooking and more
+                <br />
+                <br />
+                <br />
+                Natural pet foods and supplies
+                <br />
+                <br />
+                Cards and gifts
+                <br />
+                <br />
+                Gardening products, including compost buckets, and earth-safe
+                anti-bug products
+              </div>
             </div>
-          </div>
-          <p>
-            If you are looking for something we do not carry, please don't
-            hestitate to ask our staff. <br />
-            <br /> We will do our best to find it for you!
-          </p>
-        </main>
-        <Footer />
+            <p>
+              If you are looking for something we do not carry, please don't
+              hestitate to ask our staff. <br />
+              <br /> We will do our best to find it for you!
+            </p>
+          </main>
+          <Footer />
+        </div>
       </body>
     </>
   );

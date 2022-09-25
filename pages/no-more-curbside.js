@@ -16,62 +16,64 @@ export default function Curbside() {
       </Head>
       <body>
         <main>
-          <section>
-            <h1>No More Online Orders/Curbside Pickup</h1>
-            <svg width="200" height="200">
-              <circle
-                cx="100"
-                cy="100"
-                r="100"
-                stroke="green"
-                stroke-width="4"
-                fill="yellow"
-              />
-              <circle
-                cx="60"
-                cy="60"
-                r="20"
-                stroke="green"
-                stroke-width="4"
-                fill="#b47009"
-              />
-              <circle
-                cx="140"
-                cy="60"
-                r="20"
-                stroke="green"
-                stroke-width="4"
-                fill="#b47009"
-              />
-              <circle
-                cx="140"
-                cy="60"
-                r="10"
-                stroke="green"
-                stroke-width="4"
-                fill="green"
-              />
-              <circle
-                cx="60"
-                cy="60"
-                r="10"
-                stroke="green"
-                stroke-width="4"
-                fill="green"
-              />
-              <path
-                d="M 50 150 A 45 45, 0, 0, 1, 150 150 Z"
-                fill="none"
-                stroke="green"
-                stroke-width="5"
-              />
-            </svg>
-            <h3>
-              Axis is no longer accepting curbside orders. We allow in store
-              shopping, Monday - Friday from 9am -6pm and Saturday from 9am -
-              5pm.
-            </h3>
-          </section>
+          <div className="wrapper">
+            <section>
+              <h1>No More Online Orders/Curbside Pickup</h1>
+              <svg width="200" height="200">
+                <circle
+                  cx="100"
+                  cy="100"
+                  r="100"
+                  stroke="green"
+                  stroke-width="4"
+                  fill="yellow"
+                />
+                <circle
+                  cx="60"
+                  cy="60"
+                  r="20"
+                  stroke="green"
+                  stroke-width="4"
+                  fill="#b47009"
+                />
+                <circle
+                  cx="140"
+                  cy="60"
+                  r="20"
+                  stroke="green"
+                  stroke-width="4"
+                  fill="#b47009"
+                />
+                <circle
+                  cx="140"
+                  cy="60"
+                  r="10"
+                  stroke="green"
+                  stroke-width="4"
+                  fill="green"
+                />
+                <circle
+                  cx="60"
+                  cy="60"
+                  r="10"
+                  stroke="green"
+                  stroke-width="4"
+                  fill="green"
+                />
+                <path
+                  d="M 50 150 A 45 45, 0, 0, 1, 150 150 Z"
+                  fill="none"
+                  stroke="green"
+                  stroke-width="5"
+                />
+              </svg>
+              <h3>
+                Axis is no longer accepting curbside orders. We allow in store
+                shopping, Monday - Friday from 9am -6pm and Saturday from 9am -
+                5pm.
+              </h3>
+            </section>
+          </div>
         </main>
       </body>
     </>
