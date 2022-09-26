@@ -1,0 +1,10 @@
+.productcategorylistcontainer {
+    display: flex;
+    column-gap: 1rem;
+  }
+  .column-1 {
+    width: 50%;
+  }
+  .column-2 {
+    width: 50%;
+  }

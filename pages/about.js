@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-
+import AboutStyles from "../styles/About.module.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
@@ -19,7 +19,7 @@ export default function About() {
           <div class="earthhomepagepicture" />
           <Nav />
           <main>
-            <div class="written-content">
+            <div className={AboutStyles.writtencontent}>
               <p>
                 Axis Natural Foods is the longest operating natural foods store
                 in the State of Maine and has been serving Central Maine since

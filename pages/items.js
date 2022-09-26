@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-
+import ItemStyles from "../styles/Items.module.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import OrderFormLinkBtn from "../components/OrderFormLinkBtn";
 
 export default function Items() {
   return (
@@ -19,13 +20,7 @@ export default function Items() {
           <div class="earthhomepagepicture"></div>
           <Nav />
           <main>
-            <div class="formlink">
-              <Link href="/no-more-curbside">
-                <button type="button">
-                  <h2>Click here to place an order</h2>
-                </button>
-              </Link>
-            </div>
+            <OrderFormLinkBtn />
             <p class="before-list">
               We try to offer as many choices of natural products as we can to
               our customers. We stock a large selection within many popular
@@ -34,7 +29,7 @@ export default function Items() {
               sales on a wide variety of products. Here are some of the many
               categories of products we offer:
             </p>
-            <div class="product-category-list-container">
+            <div className={ItemStyles.productcategorylistcontainer}>
               <div class="column-1">
                 Natural Foods and Groceries
                 <br />

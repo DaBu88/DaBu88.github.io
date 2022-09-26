@@ -1,0 +1,36 @@
+/* home page css */
+.shoppingoptionsannouncement {
+    color: white;
+    text-align: center;
+    font-size: var(--font-size-adjust);
+    padding: 1rem 2rem 0rem 4rem;
+    line-height: var(--line-height-adjust);
+  }
+  .whitebox {
+    background-color: white;
+    border-radius: 5px;
+    border-color: yellow;
+    border-style: solid;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  /* Google form link */
+  .formlink {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .storedescription {
+    font-family: Georgia;
+    font-size: 0.9rem;
+    color: white;
+  }
+  .wineimage {
+    width: 20rem;
+    float: right;
+  }
+  
+  .covidstatement {
+    font-size: large;
+    color: white;
+  }

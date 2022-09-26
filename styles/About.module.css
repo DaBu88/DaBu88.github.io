@@ -1,0 +1,11 @@
+.written-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: auto;
+    width: 100%;
+}
+/* .written-content > * {
+    width: 100%;
+} */

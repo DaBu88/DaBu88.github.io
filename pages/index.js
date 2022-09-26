@@ -1,12 +1,11 @@
 import Head from "next/head";
+import OrderFormLinkBtn from "../components/OrderFormLinkBtn";
 import Image from "next/image";
-import Link from "next/link";
-
+import HomeStyles from "../styles/Home.module.css";
 import WineImage from "../public/wineimage.jpg";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-
 export default function Home() {
   return (
     <>
@@ -21,14 +20,14 @@ export default function Home() {
           <div class="earthhomepagepicture"></div>
           <Nav />
           <main>
-            <div class="shoppingoptions">
-              <p>
+            <div>
+              <p className={HomeStyles.shoppingoptionsannouncement}>
                 AXIS IS OPEN TO IN-STORE SHOPPING.
                 <br />
                 WE WILL ALSO BE CONTINUING CURBSIDE SERVICE. PLEASE SEE BELOW
                 FOR DETAILS
               </p>
-              <div class="whitebox">
+              <div className={HomeStyles.whitebox}>
                 <label for="shoppingconditions">
                   <u>
                     Axis is open to shoppers under the following conditions:
@@ -75,14 +74,8 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div class="formlink">
-              <Link href="/no-more-curbside">
-                <button type="button">
-                  <h2>Click here to place an order</h2>
-                </button>
-              </Link>
-            </div>
-            <div class="covidstatement">
+            <OrderFormLinkBtn />
+            <div className={HomeStyles.covidstatement}>
               <p>
                 Axis Natural Foods has been a part of this community for 50
                 years! During this time we want to continue to provide the
@@ -97,10 +90,10 @@ export default function Home() {
               </p>
             </div>
             <hr class="hrspecial" />
-            <div class="storedescription">
+            <div className={HomeStyles.storedescription}>
               <div class="textdescription">
                 <Image
-                  class="wineimage-image"
+                  className={HomeStyles.wineimage}
                   src={WineImage}
                   alt="Wine Image"
                 />

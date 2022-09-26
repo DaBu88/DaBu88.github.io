@@ -89,67 +89,6 @@ padding: 1px 0px 5px 4rem;
   border-top: 6px solid
 }
 
-/* home page css */
-.shoppingoptions p {
-  color: white;
-  text-align: center;
-  font-size: var(--font-size-adjust);
-  padding: 1rem 2rem 0rem 4rem;
-  line-height: var(--line-height-adjust);
-}
-.whitebox {
-  background-color: white;
-  border-radius: 5px;
-  border-color: yellow;
-  border-style: solid;
-  margin-bottom: 1rem;
-  color: black;
-}
-/* Google form link */
-.formlink {
-  text-align: center;
-  font-size: 1.5rem;
-  color: white;
-}
-.storedescription {
-  font-family: Georgia;
-  font-size: 0.9rem;
-  color: white;
-}
-.wineimage-image {
-  width: 20rem;
-  float: right;
-}
-
-.covidstatement {
-  font-size: large;
-  color: white;
-}
-
-/* about us page styles */
-  .written-content {
-      color: white;
-      display: flex;
-      flex-direction: column;
-      row-gap: 10px;
-      height: auto;
-  }
-  .written-content > * {
-      width: 100%;
-  }
-
-/* items page styles */
-.product-category-list-container {
-  display: flex;
-  column-gap: 1rem;
-}
-.column-1 {
-  width: 50%;
-}
-.column-2 {
-  width: 50%;
-}
-
 /* contact us page */
 form {
   align-items: center;
