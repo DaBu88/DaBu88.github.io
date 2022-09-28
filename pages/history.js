@@ -17,7 +17,6 @@ export default function History() {
       <body>
         <div class="wrapper">
           <div class="earthhomepagepicture"></div>
-          <Nav />
           <main>
             <div class="written-content">
               <p>
@@ -40,7 +39,6 @@ export default function History() {
               </p>
             </div>
           </main>
-          <Footer />
         </div>
       </body>
     </>

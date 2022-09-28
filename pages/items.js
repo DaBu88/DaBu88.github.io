@@ -18,7 +18,6 @@ export default function Items() {
       <body>
         <div class="wrapper">
           <div class="earthhomepagepicture"></div>
-          <Nav />
           <main>
             <OrderFormLinkBtn />
             <p class="before-list">
@@ -100,7 +99,6 @@ export default function Items() {
               <br /> We will do our best to find it for you!
             </p>
           </main>
-          <Footer />
         </div>
       </body>
     </>

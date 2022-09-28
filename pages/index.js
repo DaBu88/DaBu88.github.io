@@ -18,7 +18,6 @@ export default function Home() {
       <body>
         <div class="wrapper">
           <div class="earthhomepagepicture"></div>
-          <Nav />
           <main>
             <div>
               <p className={HomeStyles.shoppingoptionsannouncement}>
@@ -150,7 +149,6 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <Footer />
         </div>
       </body>
     </>

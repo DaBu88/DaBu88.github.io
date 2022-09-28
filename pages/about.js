@@ -17,7 +17,6 @@ export default function About() {
       <body>
         <div class="wrapper">
           <div class="earthhomepagepicture" />
-          <Nav />
           <main>
             <div className={AboutStyles.writtencontent}>
               <p>
@@ -75,7 +74,6 @@ export default function About() {
           </main>
         </div>
       </body>
-      <Footer />
     </>
   );
 }
