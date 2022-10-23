@@ -1,5 +1,15 @@
+import Footer from "../Footer/Footer";
+import Nav from "../Nav/Nav";
+import Head from "next/head";
 const Layout = ({ children }) => {
-  return <div></div>;
+  return (
+    <>
+      <main>
+        <Nav />
+        <Footer />
+      </main>
+    </>
+  );
 };
 
 export default Layout;

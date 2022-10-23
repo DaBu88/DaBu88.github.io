@@ -1,14 +1,11 @@
-import Styles from "*/Footer.module.css";
-import GlobalStyles from "stylesglobals.css";
+import Styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
     <footer className={Styles.footer}>
-      <div class="copyright">
-        <h1>
-          Content copyright 2021. Axis Natural Food, Ltd. All rights reserved.
-        </h1>
-      </div>
+      <p className={Styles.text}>
+        Content copyright 2021. Axis Natural Food, Ltd. All rights reserved.
+      </p>
     </footer>
   );
 };
