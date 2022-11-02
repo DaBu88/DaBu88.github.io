@@ -1,0 +1,132 @@
+.wrapper {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.card::before {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    border-top: 4px solid #347e5c;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    height: auto;
+    border-top: 4px solid #43A276;
+    background-color: #EFE7DC;
+}
+
+.card_right {
+    flex-direction: row;
+}
+
+.card_left {
+    flex-direction: row-reverse;
+}
+
+.card_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 48px;
+    padding-left: 48px;
+}
+
+.card_text > div {
+    font-family: 'Catamaran', sans-serif;
+    padding-top: 32px;
+    color: #574328;
+    font-size: 1.125rem;
+    line-height: 1.375em;
+}
+
+.card_text > h3 {
+    text-align: center;
+    color: #3F301D;
+    margin-top: 10%;
+}
+
+.card_text_button {
+    padding: 34px 0;
+}
+
+.card_text_nobutton {
+    height: 32px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+}
+
+.image > * {
+    margin: 48px;
+}
+
+.bold {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #347E5C;
+}
+
+@media only screen and (max-width: 1000px) { /* Mobile Large */
+    .card {
+        width: 100%;
+    }
+    .card_text > div {
+       font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) { /* Mobile Small */
+    .card {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .image {
+        width: 50%;
+        height: 25%;
+        padding-top: 48px;
+    }
+    .image > * {
+        max-width: 240px;
+        max-height: 180px;
+        margin: 0px;
+    }
+    .card_text {
+        width: 100%;
+        display: flex;
+        padding: 0px 20%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card_text > h3 {
+        padding-top: 0px;
+    }
+
+    .card_text > div {
+        line-height: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 300px) { /* Extra Small */
+    .image > * {
+        max-width: 160px;
+        max-height: 120px;
+    }
+}

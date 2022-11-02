@@ -1,0 +1,46 @@
+[
+    {
+        "type": "Hero",
+        "body": "Central Maine's trusted local source for natural and organic foods since 1970.",
+        "svg": 0,
+        "buttonText": "Learn More",
+        "buttonLink": "/about"
+    },
+    {
+        "type": "Card",
+        "orientation": "right",
+        "image": "/./../public/wineimage.jpg",
+        "imageText": "Grocery store interior",
+        "imageWidth":"378",
+        "imageHeight":"256",
+        "header": "Who We Are",
+        "body": [
+            ["We are a family run business dedicated to providing the", "highest quality", "natural, organic and sustainable foods and goods delivered by a knowledgeable and caring staff."]
+            ,
+            ["We offer a full array of natural foods, groceries, organic produce, an extensive line of vitamins and supplements, special diet foods, macrobiotic foods, herbal products, cruelty-free body care products, wine and beer, home brewing supplies, eco-friendly household goods, books, natural pet foods and supplies,","and much, much more."]
+        ],
+        "buttonText": "See our items",
+        "buttonLink": "/items"
+    },
+    {
+        "type": "Card",
+        "orientation": "left",
+        "image": "/./../public/store.jpg",
+        "imageText": "Store exterior",
+        "imageWidth":"393",
+        "imageHeight":"370",
+        "header": "Our New Location",
+        "body": [
+            ["We have moved to a new, larger space at 120 Center Street in Auburn, in the Center Street Plaza.  This move has allowed us to","significantly","expand the selection of great products we offer our customers."]
+            ,
+            ["Please also come see our new, hand picked wine and beer section, with more than 60 organic wines, and more than 100 wines priced at less than ten dollars."]
+        ]
+    },
+    {
+        "type": "TextDouble",
+        "header": "Hours",
+        "body": [["Monday: 9:00 am - 6:00 pm"], ["Tuesday: 9:00 am- 6:00 pm"], ["Wednesday: 9:00 am- 6:00 pm"], ["Thursday: 9:00 am- 6:00 pm"], ["Friday: 9:00 am- 6:00 pm"], ["Saturday: 9:00 am- 5:00 pm"], ["Sunday: Closed"]],
+        "header2": "Address",
+        "body2": [["Axis Natural Foods"],["120 Center Street"], ["Auburn, ME 04210"], ["207-782-3348"]]
+    }
+]

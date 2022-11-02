@@ -4,11 +4,17 @@
     align-content: center;
     flex-direction: column;
     width: 100vw;
-    height: 128px;
+    height: auto;
     text-align: center;
     background-color: #574328;
 }
 
+.footer > button {
+    padding: 24px;
+}
+
 .text {
     color: #F2F2F2;
+    padding: 24px;
+    padding-top: 0px;
 }

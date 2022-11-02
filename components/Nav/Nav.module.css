@@ -7,6 +7,7 @@
     height: 120px;
     padding-left: 10%;
     padding-right: 10%;
+    background-color: #F5F1ED;
 }
 
 .links {
@@ -25,12 +26,16 @@
 
 .title {
     display: flex;
-    text-align: left;
+    text-align: right;
     font-style: italic;
     font-weight: 600;
     color: #3F301D;
     white-space: nowrap;
     padding-right: 5.86%;
+}
+
+.links > li > * > span:hover {
+    color: #43A276;
 }
 
 #hamburger {
@@ -68,27 +73,26 @@
 
 .hamburger_close {
     width: 0%;
+    pointer-events: none;
 }
 
 .hamburger_links {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    width: 50vw;
-    height: 70%;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
     text-align: center;
     font-weight: 600;
     color: #3F301D;
+    padding-bottom: 92px;
 }
 
 .hamburger_links > li {
     transition: all 0.5s ease-in;
     display: flex;
     justify-content: center;
-}
-
-.hamburger_links > * > a {
     padding: 32px 16px 8px 16px;
 }
 
@@ -105,7 +109,7 @@
 
 @media only screen and (max-width: 1000px) { /* Mobile Large */
     .title {
-        width: 50%
+        width: 100%
     }
 }
 
@@ -117,18 +121,23 @@
         display: none;
     }
     .nav {
+        top: 0;
         padding-right: 0;
         padding-left: 0;
-        position: sticky;
+        position: fixed;
+        z-index: 5;
+        height: 64px;
     }
     .links {
-        justify-content: space-between;
+        justify-content: space-around;
         padding-top: 48px;
         width: 100%;
     }
     .title {
-        width: 5%;
-        padding: 0px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0px 5%;
     }
 }
 
@@ -147,13 +156,15 @@
         padding: 0px;
         width: 0px;
     }
-    .nav {
-        height: 85px;
-    }
     .links {
         justify-content: center;
     }
     .links>li {
         display: none;
+    }
+    .hamburger_links > li {
+        font-size: 14px;
+        padding: 32px 8px 32px 8px;
+        height: 15%;
     }
 }
