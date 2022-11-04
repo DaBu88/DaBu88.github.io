@@ -21,9 +21,11 @@
     justify-content: center;
     position: relative;
     width: 80%;
+    max-width: 1000px;
     height: auto;
     border-top: 4px solid #43A276;
     background-color: #EFE7DC;
+    box-shadow: 4px 4px 4px rgba(184,184,184,0.49);
 }
 
 .card_right {
@@ -52,10 +54,10 @@
     line-height: 1.375em;
 }
 
-.card_text > h3 {
+.card_text > * > h3 {
     text-align: center;
     color: #3F301D;
-    margin-top: 10%;
+    margin-top: 48px;
 }
 
 .card_text_button {
@@ -71,10 +73,17 @@
     align-items: center;
     height: auto;
     width: 50%;
+    position: relative;
+    margin: 12px;
 }
 
 .image > * {
     margin: 48px;
+    object-fit: contain;
+    max-width: 75%;
+    position: relative;
+    height: unset;
+    border-radius: 4px;
 }
 
 .bold {
@@ -99,13 +108,11 @@
         height: auto;
     }
     .image {
-        width: 50%;
-        height: 25%;
+        width: 100%;
         padding-top: 48px;
+        margin: 0px;
     }
     .image > * {
-        max-width: 240px;
-        max-height: 180px;
         margin: 0px;
     }
     .card_text {
@@ -121,12 +128,5 @@
 
     .card_text > div {
         line-height: 1.25em;
-    }
-}
-
-@media only screen and (max-width: 300px) { /* Extra Small */
-    .image > * {
-        max-width: 160px;
-        max-height: 120px;
     }
 }

@@ -3,8 +3,8 @@ import Styles from "./TextDouble.module.css";
 const TextDouble = (props) => {
   return (
     <div className={Styles.wrapper}>
-      <div className={Styles.container}>
-        {props.header ? <h2>{props.header}</h2> : null}
+      <article className={Styles.container}>
+        <header>{props.header ? <h2>{props.header}</h2> : null}</header>
         {props.body
           ? props.body.map((nested, index) => {
               return (
@@ -24,9 +24,9 @@ const TextDouble = (props) => {
               );
             })
           : null}
-      </div>
-      <div className={Styles.container}>
-        {props.header ? <h2>{props.header2}</h2> : null}
+      </article>
+      <article className={Styles.container}>
+        <header>{props.header ? <h2>{props.header2}</h2> : null}</header>
         {props.body2
           ? props.body2.map((nested, index) => {
               return (
@@ -46,7 +46,7 @@ const TextDouble = (props) => {
               );
             })
           : null}
-      </div>
+      </article>
     </div>
   );
 };

@@ -2,8 +2,8 @@ import Styles from "./TextCenter.module.css";
 
 const TextCenter = (props) => {
   return (
-    <div className={Styles.container}>
-      {props.header ? <h2>{props.header}</h2> : null}
+    <article className={Styles.container}>
+      <header>{props.header ? <h2>{props.header}</h2> : null}</header>
       {props.body.map((nested, index) => {
         return (
           <div key={index}>
@@ -21,7 +21,7 @@ const TextCenter = (props) => {
           </div>
         );
       })}
-    </div>
+    </article>
   );
 };
 

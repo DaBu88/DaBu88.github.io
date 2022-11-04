@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
+import Content from "../public/Content/items.json";
+import ContentMapper from "../components/ContentMapper";
 
 export default function Items() {
   return (
@@ -11,7 +11,9 @@ export default function Items() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Items</title>
       </Head>
-      <body></body>
+      <main>
+        <ContentMapper content={Content} />
+      </main>
     </>
   );
 }

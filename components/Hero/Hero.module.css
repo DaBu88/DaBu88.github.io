@@ -26,10 +26,13 @@
 .body {
     padding: 64px;
     width: 60%;
+    max-width: 768px;
 }
 
 .svg {
     width: 40%;
+    max-width: 353px;
+    min-width: 158px;
     height: auto;
 }
 

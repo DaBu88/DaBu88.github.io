@@ -1,7 +1,7 @@
 import MainButton from "../MainButton/MainButton";
 import Styles from "./Hero.module.css";
 import Image from "next/image";
-import TreeSVG from "../../public/tree-svgrepo-com 1.svg";
+import TreeSVG from "../../public/svg/tree-svgrepo-com 1.svg";
 const Hero = (props) => {
   const svgArr = [<TreeSVG key={0} alt="Tree logo" />];
   return (

@@ -3,7 +3,7 @@ import Image from "next/image";
 import MainButton from "../MainButton/MainButton";
 const MainCard = (props) => {
   return (
-    <div className={Styles.wrapper}>
+    <article className={Styles.wrapper}>
       <div
         className={[
           props.orientation == "right" ? Styles.card_right : Styles.card_left,
@@ -17,15 +17,19 @@ const MainCard = (props) => {
               alt={props.imageText}
               width={props.imageWidth}
               height={props.imageHeight}
+              layout="fill"
+              objectFit="cover"
             />
           </div>
         ) : null}
-        <div className={Styles.card_text}>
-          <h3>{props.header}</h3>
-          {/* The body span text has a nested array structure in JSON.
+        {/* The body span text has a nested array structure in JSON.
           Every entry in the "body" array is an array of text to be joined in a div
           When text is seperated with multiple entries, the odd entries (1,3,..) are bolded 
           This allows basic styling in terms of bolding. Spacing is automatically applied for the bolded item */}
+        <div className={Styles.card_text}>
+          <header>
+            <h3>{props.header}</h3>
+          </header>
           {props.body.map((nested, index) => {
             return (
               <div key={index}>
@@ -52,7 +56,7 @@ const MainCard = (props) => {
           )}
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

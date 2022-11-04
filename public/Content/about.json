@@ -1,0 +1,44 @@
+[
+    {
+        "type": "Card",
+        "orientation": "right",
+        "image": "/./../public/img/veggies.jpg",
+        "imageText": "Vegetables in store",
+        "imageWidth":"400",
+        "imageHeight":"225",
+        "header": "Our History",
+        "body": [
+            ["The organic food movement grew out of the seeds of thought that action needed to be taken to save the environment and protect our children from the overuse of toxic chemicals.  Organic farming was spurred on by the `Back to the Land` movement. The belief was that to be living simply and using sustainable farming techniques would be better for people and the planet and create a safe and reliable food supply for the future."],
+            ["In the early 1970s, Axis Natural Foods was a Maine pioneer in the organic farming movement and the purveying of natural products.  Axis Natural Foods was a vital part of the vibrant downtown Lewiston/Auburn community."]
+        ]
+    },
+    {
+        "type": "Card",
+        "orientation": "left",
+        "image": "/./../public/img/wine_beer.jpg",
+        "imageText": "Wine and beer section in store",
+        "imageWidth":"400",
+        "imageHeight":"225",
+        "header": "Today",
+        "body": [
+            ["After 20 years at 250 Center Street in Auburn, we have moved to our new location at 120 Center Street (in the Center Street Plaza - across from Pat's Pizza). This move has been made possible by the dedication and support of our customers and staff."],
+            ["The move will enable Axis Natural Foods to offer a greater variety of health care products, vitamins and supplements, fresh local produce, bulk goods, and books, and will allow Axis to expand to areas such as gourmet products and cheeses, and a wide variety of wine, including more than 65 organic wines and more than 100 wines priced under ten dollars."]
+        ]
+    },
+    {
+        "type": "List",
+        "subtext": "While our store will be larger, our vision will not change.  Axis Natural Foods will continue to:",
+        "body": [
+            ["Provide quality natural and organic products delivered by a knowledgeable, caring staff"],
+            ["Provide environmentally friendly products and actively support the preservation of our natural environment"],
+            ["Actively seek out and support sources of locally grown organic foods, recognizing their environmental and health benefits"],
+            ["Maintain a clean, comfortable and attractive store"],
+            ["Sell products that reflect the community’s needs and are fairly priced"],
+            ["Provide a source for quality products that customers wish to use for their nutritional goals and lifestyles"]
+        ]
+    },
+    {
+        "type": "TextCenter",
+        "body": [["Thank you for shopping at Axis Natural Foods."], ["","Good Health to you and the Planet too!"]]
+    }
+]

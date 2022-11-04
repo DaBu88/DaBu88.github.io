@@ -8,7 +8,7 @@ const Footer = () => {
       <button>
         <Link href={"https://www.facebook.com/AxisNaturalFoods/"}>
           <Image
-            src="/./../public/facebookLogo.png"
+            src="/./../public/img/facebookLogo.png"
             alt="Facebook Icon"
             width="58"
             height="58"

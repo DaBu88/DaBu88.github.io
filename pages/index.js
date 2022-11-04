@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
+import Content from "../public/Content/index.json";
+import ContentMapper from "../components/ContentMapper";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Home</title>
       </Head>
-      <body></body>
+      <main>
+        <ContentMapper content={Content} />
+      </main>
     </>
   );
 }

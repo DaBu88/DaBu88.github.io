@@ -1,0 +1,39 @@
+[
+    {
+        "type": "Card",
+        "orientation": "right",
+        "image": "/./../public/img/fruits.jpg",
+        "imageText": "Shelf of fruits",
+        "imageWidth":"400",
+        "imageHeight":"225",
+        "header": "Items",
+        "body": [
+            ["We try to offer as many choices of natural products as we can to our customers.  We stock a large selection within many popular categories and we are happy to special order products that we don’t stock.   Additionally, we feature many monthly and on-going sales on a wide variety of products."]
+        ]
+    },
+    {
+        "type": "List",
+        "body": [
+            ["Natural Foods and Groceries"],
+            ["Organic and Local Produce"],
+            ["Special Diet Foods and Gluten-Free products"],
+            ["Macrobiotic Foods"],
+            ["Vitamins and Supplements"],
+            ["Herbal Products"],
+            ["Wine and Beer"],
+            ["Home Brewing Supplies"],
+            ["Coffee and Tea"],
+            ["Prepared Foods"],
+            ["Eco-friendly Household Goods"],
+            ["Cheese Making Supplies"],
+            ["Organic or Natural Health and Body Care Products"],
+            ["Books addressing health, nutrition, cooking and more"],
+            ["Camping Foods"],
+            ["Natural Pet Foods and Supplies"],
+            ["Kitchen Products"],
+            ["Cards and Gifts"],
+            ["Canning Supplies, including jar lids and picking spices"],
+            ["Gardening Products, including compost buckets and earth-safe anti-bug products"]
+        ]
+    }
+]

@@ -9,7 +9,7 @@
     {
         "type": "Card",
         "orientation": "right",
-        "image": "/./../public/wineimage.jpg",
+        "image": "/./../public/img/wineimage.jpg",
         "imageText": "Grocery store interior",
         "imageWidth":"378",
         "imageHeight":"256",
@@ -25,7 +25,7 @@
     {
         "type": "Card",
         "orientation": "left",
-        "image": "/./../public/store.jpg",
+        "image": "/./../public/img/store.jpg",
         "imageText": "Store exterior",
         "imageWidth":"393",
         "imageHeight":"370",
