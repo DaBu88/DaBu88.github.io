@@ -3,6 +3,18 @@
 // https://nextjs.org/docs/guides/building-forms
 
 export default function handler(req, res) {
-  const comment = req.body.customerComment
-  res.status(201).json({data: comment})
+  const customerInfo = req.body
+  res.status(201).json({
+    fname: customerInfo.fname,
+    lname: customerInfo.lname,
+    email: customerInfo.email,
+    dayphone: customerInfo.dayphone,
+    eveningphone: customerInfo.eveningphone,
+    comments: customerInfo.comments,
+    state: customerInfo.state,
+    zip: customerInfo.zip,
+    city: customerInfo.city,
+    address1: customerInfo.address1,
+    address2: customerInfo.address2
+  })
  }

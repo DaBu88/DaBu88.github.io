@@ -12,3 +12,11 @@
     height: 10rem;
     width: 300px;
   }
+  .contactlabel {
+    border: solid yellow;
+    background-color: #663b03;
+    width: 300px;
+    color: white;
+    font-style: oblique;
+    box-shadow: yellow 0px 0px 10px 5px;
+  }

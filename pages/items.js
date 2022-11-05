@@ -24,7 +24,7 @@ export default function Items() {
               We try to offer as many choices of natural products as we can to
               our customers. We stock a large selection within many popular
               categories and we are happy to special order products that we
-              don’t stock. Additionally, we feature many monthly and on-going
+              don't stock. Additionally, we feature many monthly and on-going
               sales on a wide variety of products. Here are some of the many
               categories of products we offer:
             </p>
