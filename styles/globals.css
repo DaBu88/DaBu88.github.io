@@ -126,11 +126,11 @@ meter {
       background-color: #F5F1ED;
   }
   
-  p {
+  p, label, input, option, select, textarea {
       font-family: 'Catamaran', sans-serif;
   }
   
-  h2, h3, nav > * > ul > li {
+  h2, h3 {
       font-family: 'Open Sans', sans-serif;
   }
 
@@ -138,10 +138,10 @@ meter {
     h2 {
         font-size: 2.25rem;
     }
-    h3, nav > * > ul > li {
+    h3 {
         font-size: 1.75rem;
     }
-    p {
+    p, label, input, option, select, textarea {
         font-size: 1.125rem;
         line-height: 1.375em;
     }
@@ -151,10 +151,10 @@ meter {
     h2 {
         font-size: 1.375rem;
     }
-    h3, nav > * > ul > li {
+    h3 {
         font-size: 1.375rem;
     }
-    p {
+    p, label, input, option, select, textarea {
         font-size: 1rem;
         line-height: 1.375em;
     }
@@ -164,7 +164,7 @@ meter {
     main {
         padding-top: 64px;
     }
-    p {
+    p, label, input, option, select, textarea {
         line-height: 1.25em;
     }
 }

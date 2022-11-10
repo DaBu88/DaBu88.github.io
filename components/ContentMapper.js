@@ -3,6 +3,7 @@ import MainCard from "./MainCard/MainCard";
 import TextDouble from "./TextDouble/TextDouble";
 import TextCenter from "./TextCenter/TextCenter";
 import List from "./List/List";
+import Form from "./Form/Form";
 
 const ContentMapper = (props) => {
   return (
@@ -60,6 +61,17 @@ const ContentMapper = (props) => {
                   header={element.header}
                   subtext={element.subtext}
                   body={element.body}
+                />
+              </section>
+            );
+          case "Form":
+            return (
+              <section>
+                <Form
+                  header={element.header}
+                  inputs={element.inputs}
+                  buttonText={element.buttonText}
+                  buttonLink={element.buttonLink}
                 />
               </section>
             );

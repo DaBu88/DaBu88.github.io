@@ -22,6 +22,8 @@
     color: #3F301D;
     display: flex;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
 }
 
 .title {
@@ -87,6 +89,8 @@
     font-weight: 600;
     color: #3F301D;
     padding-bottom: 92px;
+    font-size: 1.75rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hamburger_links > li {
@@ -110,6 +114,9 @@
 @media only screen and (max-width: 1000px) { /* Mobile Large */
     .title {
         width: 100%
+    }
+    .links > li {
+        font-size: 1.375rem;
     }
 }
 
@@ -138,6 +145,10 @@
         justify-content: flex-end;
         width: 100%;
         padding: 0px 5%;
+    }
+
+    .hamburger_links {
+        font-size: 1.25rem;
     }
 }
 

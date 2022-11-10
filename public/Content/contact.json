@@ -1,0 +1,73 @@
+[
+    {
+        "type": "Form",
+        "header": "Contact",
+        "inputs": [{
+            "label": "First Name",
+            "id": "fName",
+            "type": "name",
+            "required": true
+        },
+        {
+            "label": "Last Name",
+            "id": "lName",
+            "type": "name",
+            "required": true
+        },
+        {
+            "label": "Address Line 1",
+            "id": "address1",
+            "type": "address",
+            "required": false
+        },
+        {
+            "label": "Address Line 2",
+            "id": "address2",
+            "type": "address",
+            "required": false
+        },
+        {
+            "label": "City",
+            "id": "city",
+            "type": "city",
+            "required": true
+        },
+        {
+            "label": "State",
+            "id": "state",
+            "type": "state",
+            "required": true
+        },
+        {
+            "label": "Zip Code",
+            "id": "zip",
+            "type": "zip",
+            "required": true
+        },
+        {
+            "label": "Phone",
+            "id": "phone",
+            "type": "phone",
+            "required": true
+        },
+        {
+            "label": "Email",
+            "id": "email",
+            "type": "email",
+            "required": true
+        },
+        {
+            "label": "Comment",
+            "id": "comment",
+            "type": "textarea",
+            "required": false
+        }],
+        "buttonText": "Submit",
+        "action": "http://ss1.ciwcertified.com/cgi-bin/process.pl",
+        "method": "post"
+    },
+    {
+        "type": "TextCenter",
+        "body": [["* indicates required fields"]]
+    }
+]

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Content from "../public/Content/contact.json";
+import ContentMapper from "../components/ContentMapper";
 
 export default function Contact() {
   return (
@@ -11,7 +13,9 @@ export default function Contact() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Contact</title>
       </Head>
-      <body></body>
+      <main>
+        <ContentMapper content={Content} />
+      </main>
     </>
   );
 }
